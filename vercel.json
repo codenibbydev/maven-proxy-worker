@@ -1,7 +1,7 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/", "dest": "/api/maven.js" }
+    { "src": "/", "dest": "/api/maven.js" },
     { "src": "/post", "dest": "/api/posts/index.js" }
   ]
 }
