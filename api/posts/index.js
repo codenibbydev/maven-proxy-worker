@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const { start = 1, count = 10 } = req.query;
+  const { start = 1, count = 1000 } = req.query;
 
   const blogFeed = `https://codenibbydev.blogspot.com/feeds/posts/default?start-index=${start}&max-results=${count}`;
   const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(blogFeed)}`;
