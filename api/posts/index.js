@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const blogFeed = 'https://your-blog-name.blogspot.com/feeds/posts/default';
+  const blogFeed = 'https://codenibbydev.blogspot.com/feeds/posts/default';
   const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(blogFeed)}`;
 
   try {
